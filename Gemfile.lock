@@ -1,10 +1,24 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    midiator (0.5.1)
+    alsa-rawmidi (0.2.14)
+      ffi (>= 1.0)
+    ffi (1.0.11)
+    ffi-coremidi (0.1.7)
+      ffi (>= 1.0)
+    midi-jruby (0.0.12)
+    midi-winmm (0.1.10)
+      ffi (>= 1.0)
+    packetfu (1.1.5)
+    unimidi (0.3.3)
+      ffi-coremidi
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  midiator
+  alsa-rawmidi
+  midi-jruby
+  midi-winmm
+  packetfu
+  unimidi
